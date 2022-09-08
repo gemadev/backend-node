@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #FFFF;
+}
+
+body {
+  background-image: url("https://images4.alphacoders.com/270/27094.jpg");
+}
+
+.link {
+  text-decoration: none;
+  color: #FFFF;
+  background-color: #03A062;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 200px;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+section {
+  width: 100vw;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+section.one, section.two {
+  height: 150px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+h2 {
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+label {
+  margin: 0 10px;
+}
+input {
+  width: 400px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #03A062;
+  padding: 5px;
+}
+
+.submit {
+  cursor: pointer;
+}
+
+.response {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgb(159, 239, 159);
+}
+
+.consigna {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: 150px;
+  width: 100px;
+  height: 100px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #FFFF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #03A062;
+}

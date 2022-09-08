@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"title": "Cerveza",
+		"price": "300",
+		"thumbnail": "src\\public\\images\\1657896399100-cerveza.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Gaseosa",
+		"price": "250",
+		"thumbnail": "src\\public\\images\\1657896431647-gaseosa.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Gatorade",
+		"price": "270",
+		"thumbnail": "src\\public\\images\\1657896479876-gatorade.jpg"
+	}
+]

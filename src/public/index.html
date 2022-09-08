@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css"  />
+</head>
+<body>
+  <section class="one">
+    <div class="consigna consigna-uno">1</div>
+    <a class="link" href="http://localhost:8080/api/products">Get all products</a>
+  </section>
+  <hr>
+  <section class="two">
+    <div class="consigna consigna-dos">2</div>
+    <label for="id">ID</label>
+    <input id="productIdInput" name="id">
+    <a class="link" id='getProduct'>Get Product</a>
+  </section>
+  <hr>
+  <section>
+    <div class="consigna consigna-tres">3</div>
+    <h2>Upload New Product</h2>
+    <form id="newProductForm">
+      <label for="title">Nombre</label>
+      <input name="title">
+      <label for="price">Precio</label>
+      <input name="price">
+      <label for="file">Thumbnail</label>
+      <input type="file" name="file"> <!-- El name debe ser el mismo que le indico al middleware uploader -->
+      <input class="submit" type="submit" value="Upload">
+    </form>
+    <div class="response" id="uploadResponse"></div>
+  </section>
+  <hr>
+  <section>
+    <div class="consigna consigna-cuatro">4</div>
+    <h2>Update existing product by ID</h2>
+    <form id="productUpdateForm">
+      <label for="id">ID</label>
+      <input name="id">
+      <label for="title">Nombre</label>
+      <input name="title">
+      <label for="price">Precio</label>
+      <input name="price">
+      <label for="file">Thumbnail</label>
+      <input type="file" name="file"> <!-- El name debe ser el mismo que le indico al middleware uploader -->
+      <input class="submit" type="submit" value="Update">
+    </form>
+    <div class="response" id="updateResponse"></div>
+  </section>
+  <hr>
+  <section>
+    <div class="consigna consigna-cinco">5</div>
+    <h2>Delete product by ID</h2>
+    <form id="deleteForm">
+      <label for="id">ID</label>
+      <input name="id">
+      <input class="submit" type="submit" value="Delete">
+    </form>
+    <div class="response" id="deleteResponse"></div>
+  </section>
+  <script src="js/index.js"></script>
+</body>
+</html>
