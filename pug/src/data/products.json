@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Heineken",
+		"price": "300",
+		"thumbnail": "1658502905478-heineken.jpg",
+		"id": 1
+	},
+	{
+		"title": "Stella Artois",
+		"price": "340",
+		"thumbnail": "1658502933748-stella.jpg",
+		"id": 2
+	},
+	{
+		"title": "Andes orígen",
+		"price": "290",
+		"thumbnail": "1658502958112-andes.jpg",
+		"id": 3
+	},
+	{
+		"title": "Quilmes",
+		"price": "230",
+		"thumbnail": "1658511346804-quilmes.jpeg",
+		"id": 4
+	},
+	{
+		"title": "Imperial",
+		"price": "300",
+		"thumbnail": "1658622446288-imperial.jpg",
+		"id": 5
+	}
+]

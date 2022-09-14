@@ -1,0 +1,24 @@
+<div class="container-sm d-flex flex-column align-items-center">
+  <img style="width: 100px; height: 100px; object-fit: contain;" src="http://localhost:8080/images/hbs.png">
+  <a class="link my-4 p-1 border border-primary rounded" href="http://localhost:8080/products">Go to: PRODUCTS' LIST</a>
+  <div class="d-flex flex-column align-items-center">
+    <h1>LOAD NEW PRODUCT</h1>
+    <form id="productForm">
+      <div class="mb-3">
+        <label for="title" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="title" name="title">
+      </div>
+      <div class="mb-3">
+        <label for="price" class="form-label">Precio</label>
+        <input type="number" class="form-control" id="price" name="price">
+      </div>
+      <div class="mb-3">
+        <input type="file" class="form-control" id="file" name="file">
+      </div>
+      <button type="submit" class="btn btn-success">Add Product</button>
+    </form>
+  </div>
+  <div class="response" id="response"></div>
+</div>
+<script src="js/productForm.js"></script>
+

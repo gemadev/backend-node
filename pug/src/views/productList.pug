@@ -1,0 +1,22 @@
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(rel="stylesheet", href="css/style.css")
+    link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css", rel="stylesheet", integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx", crossorigin="anonymous")
+    title=title
+  body
+    div(class="container-sm d-flex flex-column align-items-center")
+      img(style="width: 100px; height: 100px; object-fit: contain;", src="http://localhost:8080/images/pug.png")
+      a(class="link my-4 p-1 border border-primary rounded", href="http://localhost:8080/")="Go to: LOAD NEW PRODUCT"
+      if hasProducts
+        h1="PRODUCT'S LIST"
+        each product in products
+          div(class="border border-3 border-success row w-50 m-1 rounded d-flex align-items-center", style="height: 80px;")
+            p(class="m-2 col")=product.title
+            p(class="m-2 col")='$' + product.price
+            img(style="object-fit: contain;", class="col h-75", src=`http://localhost:8080/images/${product.thumbnail}`, alt="product")
+      else
+        h1='NO PRODUCTS FOUND'
+    script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js", integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa", crossorigin="anonymous")

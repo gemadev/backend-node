@@ -1,0 +1,16 @@
+<div class="container-sm d-flex flex-column align-items-center">
+  <img style="width: 100px; height: 100px; object-fit: contain;" src="http://localhost:8080/images/hbs.png">
+  <a class="link my-4 p-1 border border-primary rounded" href="http://localhost:8080/">Go to: LOAD NEW PRODUCT</a>
+  {{#if hasProducts}}
+    <h1>PRODUCTS' LIST</h1>
+    {{#each products}}
+      <div class="border border-3 border-success row w-50 m-1 rounded d-flex align-items-center" style="height: 80px;">
+        <p class="m-2 col">{{this.title}}</p>
+        <p class="m-2 col">${{this.price}}</p>
+        <img style="object-fit: contain;" class="col h-75" src="http://localhost:8080/images/{{this.thumbnail}}" alt="product">
+      </div>
+    {{/each}}
+  {{else}}
+    <h1>NO PRODUCTS FOUND</h1>
+  {{/if}}
+</div>
