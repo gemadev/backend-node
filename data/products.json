@@ -1,0 +1,20 @@
+[
+	{
+		"title": "Heineken",
+		"price": "300",
+		"thumbnail": "1658502905478-heineken.jpg",
+		"id": 1
+	},
+	{
+		"title": "Stella Artois",
+		"price": "340",
+		"thumbnail": "1658502933748-stella.jpg",
+		"id": 2
+	},
+	{
+		"title": "Salta",
+		"price": "400",
+		"thumbnail": "1659188255915-salta.png",
+		"id": 3
+	}
+]
