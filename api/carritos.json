@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "timestamp": "Tue Oct 04 2022 16:35:02 GMT-0300 (hora estándar de Argentina)",
+    "productos": [
+      {
+        "nombre": "Pintura 1",
+        "descripcion": "Artista: Pinchazo, celébre vecino local",
+        "foto": "https://picsum.photos/200",
+        "precio": 2000,
+        "stock": 10,
+        "id": 1,
+        "timestamp": "Tue Oct 04 2022 16:29:42 GMT-0300 (hora estándar de Argentina)",
+        "codigo": "1-1654543782441"
+      },
+      {
+        "nombre": "Perro: foto realismo",
+        "descripcion": "Imagen al azar de placedog.net",
+        "foto": "https://placedog.net/200",
+        "precio": 10.78,
+        "stock": 200,
+        "id": 3,
+        "timestamp": "Tue Oct 04 2022 16:34:25 GMT-0300 (hora estándar de Argentina)",
+        "codigo": "3-1654544020533"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "timestamp": "Tue Oct 04 2022 16:36:33 GMT-0300 (hora estándar de Argentina)",
+    "productos": [
+      {
+        "nombre": "Gato: foto realismo",
+        "descripcion": "Imagen al azar de placekitten.com",
+        "foto": "https://placekitten.com/200/300",
+        "precio": 21.21,
+        "stock": 5000,
+        "id": 2,
+        "timestamp": "Tue Oct 04 2022 16:32:04 GMT-0300 (hora estándar de Argentina)",
+        "codigo": "2-1654543924197"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "timestamp": "Tue Oct 04 2022 16:36:49 GMT-0300 (hora estándar de Argentina)",
+    "productos": [
+      {
+        "nombre": "Gato: foto realismo",
+        "descripcion": "Imagen al azar de placekitten.com",
+        "foto": "https://placekitten.com/200/300",
+        "precio": 21.21,
+        "stock": 5000,
+        "id": 2,
+        "timestamp": "Tue Oct 04 2022 16:32:04 GMT-0300 (hora estándar de Argentina)",
+        "codigo": "2-1654543924197"
+      }
+    ]
+  }
+]
