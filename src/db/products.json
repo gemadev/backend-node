@@ -1,0 +1,32 @@
+[
+	{
+		"timestamp": 1667346699142,
+		"name": "Corona",
+		"description": "Cerveza rubia Corona",
+		"code": "7pp9wf7i9herc7k1fg1od",
+		"thumbnail": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+		"price": 310,
+		"stock": 7,
+		"id": 1
+	},
+	{
+		"timestamp": 1667346681570,
+		"name": "Stella Artois",
+		"description": "Cerveza rubia Stella Artois",
+		"code": "7pp9wf7i9herc7k1fg1of",
+		"thumbnail": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+		"price": 350,
+		"stock": 5,
+		"id": 2
+	},
+	{
+		"timestamp": 1667346650900,
+		"name": "Stiegel",
+		"description": "Cerveza rubia Stiegel",
+		"code": "fes6ezw8hbc",
+		"thumbnail": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+		"price": 350,
+		"stock": 5,
+		"id": 3
+	}
+]
