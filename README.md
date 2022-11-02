@@ -1,18 +1,18 @@
 # Proyecto final del curso de Backend de Coderhouse (segunda entrega) - Gonzalo Martinez
-## Description
+## Descripcion
 
-This is the second stage of my final project for the Back-End course from Coderhouse academy.
+esta es la segunda entrega de mi proteyecto final del curso de backend dictado por Coderhouse
 
-It consists on a simple e-commerce back-end application.
+consiste en unaAPI simple para un e-commerce
 
-## Requirements
+## requerimientos
 
 * [Node.js](https://nodejs.org/)
 * [Nodemon](https://www.npmjs.com/package/nodemon)
 * [Express](https://expressjs.com/)
 * [Mongoose](https://mongoosejs.com/)
 
-## Installation
+## instalacion
 
 - git clone [repo url]
 
@@ -22,4 +22,4 @@ It consists on a simple e-commerce back-end application.
 
 ## Scripts
 
-- npm start (Starts local server with nodemon)
+- npm start (iniciar servidor local con Nodemon)
