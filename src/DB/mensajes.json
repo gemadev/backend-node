@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "author": {
+      "email": "felt@fort.com",
+      "nombre": "Ricardo",
+      "apellido": "Fort",
+      "edad": "50",
+      "alias": "El comandante",
+      "avatar": "https://www.lavoz.com.ar/resizer/RgB0hyIsoEh11jYsmxxe6GUDejo=/1023x682/smart/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/3KETMFZRI5BWZLQWHV5HW27IYA.jpg",
+      "fecha": "28/12/2022, 19:55:19"
+    },
+    "text": "Maiameeeee!!!!!!",
+    "id_text": 1
+  },
+  {
+    "id": 9,
+    "author": {
+      "email": "dolar@hoy.com",
+      "nombre": "Benjamin",
+      "apellido": "Franklin",
+      "edad": "84",
+      "alias": "AltoGuiso",
+      "avatar": "https://cdn.elnacional.com/wp-content/uploads/2020/09/dolar-1.jpg",
+      "fecha": "28/12/2022, 20:11:26"
+    },
+    "text": "346?",
+    "id_text": 9
+  },
+  {
+    "id": 10,
+    "author": {
+      "email": "dolar@hoy.com",
+      "nombre": "Benjamin",
+      "apellido": "Franklin",
+      "edad": "84",
+      "alias": "AltoGuiso",
+      "avatar": "https://cdn.elnacional.com/wp-content/uploads/2020/09/dolar-1.jpg",
+      "fecha": "28/12/2022, 20:11:38"
+    },
+    "text": "320 decis?",
+    "id_text": 10
+  },
+  {
+    "id": 11,
+    "author": {
+      "email": "dolar@hoy.com",
+      "nombre": "Benjamin",
+      "apellido": "Franklin",
+      "edad": "84",
+      "alias": "AltoGuiso",
+      "avatar": "https://cdn.elnacional.com/wp-content/uploads/2020/09/dolar-1.jpg",
+      "fecha": "28/12/2022, 20:12:04"
+    },
+    "text": "me fuí a casi 320 eh",
+    "id_text": 11
+  },
+  {
+    "id": 12,
+    "author": {
+      "email": "dolar@hoy.com",
+      "nombre": "Benjamin",
+      "apellido": "Franklin",
+      "edad": "84",
+      "alias": "AltoGuiso",
+      "avatar": "https://cdn.elnacional.com/wp-content/uploads/2020/09/dolar-1.jpg",
+      "fecha": "28/12/2022, 20:12:32"
+    },
+    "text": "ahora 20.12 a $360",
+    "id_text": 12
+  },
+  {
+    "id": 16,
+    "author": {
+      "email": "asd@asdf.com",
+      "nombre": "Gonzalo",
+      "apellido": "Martinez",
+      "edad": "22",
+      "alias": "21312",
+      "avatar": "https://yerbamateargentina.org.ar/imagenes/archivos/noticias/79288_imagen_1227x747xrecortarxagrandar.jpg?random=1608575522",
+      "fecha": "29/12/2022, 18:00:30"
+    },
+    "text": "asdasd",
+    "id_text": 16
+  },
+  {
+    "id": 17,
+    "author": {
+      "email": "asd@asdf.com",
+      "nombre": "Gonzalo",
+      "apellido": "Martinez",
+      "edad": "32",
+      "alias": "AAAAA",
+      "avatar": "https://yerbamateargentina.org.ar/imagenes/archivos/noticias/79288_imagen_1227x747xrecortarxagrandar.jpg?random=1608575522",
+      "fecha": "29/12/2022, 18:18:46"
+    },
+    "text": "probando",
+    "id_text": 17
+  }
+]
