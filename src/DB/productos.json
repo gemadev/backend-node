@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2,
+    "codigo": 2147483647,
+    "timestamp": "2022-12-28T18:52:24.212Z",
+    "nombre": "GIF",
+    "descripcion": "GIF",
+    "precio": 10.15,
+    "foto": "https://i.imgur.com/eQoeTGc.gif",
+    "stock": 200
+  },
+  {
+    "timestamp": "2022-12-28T00:46:21.521Z",
+    "nombre": "Mate",
+    "descripcion": "Mate",
+    "precio": "1200",
+    "foto": "https://media.ambito.com/p/e0c57058744b1dd04f3cd5bb6c907d09/adjuntos/239/imagenes/039/792/0039792172/730x0/smart/mate1jpg.jpg",
+    "codigo": 1660524381521,
+    "stock": 200,
+    "id": 7
+  }
+]
