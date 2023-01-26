@@ -1,0 +1,46 @@
+<title>{{title}}</title>
+
+<div class="container">
+    <div class="d-flex justify-content-between p-3">
+        <h2>Productos en carrito</h2>
+        <div>
+            <a href="/user" class="btn btn-primary me-5"> Perfil</a>
+            <a href="/home" class="btn btn-success"> Home</a>
+        </div>
+    </div>
+    {{#if userCart}}
+    <div>
+        {{#each userCart}}
+        <div class="border p-2">
+            <p>Nombre: {{this.nombre}}</p>
+            <p>Detalles: {{this.descripcion}}</p>
+            <p>Precio: {{this.precio}}</p>
+            <p>Cantidad: {{this.cantidad}}</p>
+            <img src="{{this.foto}}" alt="producto thumbnail" width="75px">
+            <div class="alert alert-warning tex-black mt-1">
+                <p class="this-precio">Precio unitario: <span class="spinner-border spinner-border-sm"></span></p>
+                <p class="this-cantidad">Cantidad: <span class="spinner-border spinner-border-sm"></span></p>
+                <p class="this-total">TOTAL: <span class="spinner-border spinner-border-sm"></span></p>
+            </div>
+        </div>
+        {{!-- {{#each this}}
+        <li>{{@key}}</li>
+        {{/each}} --}}
+
+        {{/each}}
+    </div>
+    <h4 id="total-final">Total final: <span class="spinner-border spinner-border-sm"></span></h4>
+    <div>
+
+        {{else}}
+        <div class="container">
+            <h3 class="border border-3 border-danger text-secondary text-center p-2">Carrito Vacio</h3>
+        </div>
+        {{/if}}
+
+    </div>
+</div>
+
+{{>footer}}
+
+<script defer src="../js/user-cart-view.js"></script>

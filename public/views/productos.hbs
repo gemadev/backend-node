@@ -1,0 +1,47 @@
+
+<h2 class="text-center mt-3 mb-3 text-primary">Lista de Productos</span></h2>
+
+{{#if productos }}
+<section class="container">
+    <table class="table border-dark table-light table-striped">
+        <thead>
+            <tr class="table-primary fs-5">
+                <th scope="col">Nombre</th>
+                <th scope="col">Precio</th>
+                <th scope="col" >Foto</th>
+                <th scope="col">Detalles</th>
+                <th scope="col" >Stock</th>
+                <th>Comprar</th>
+            </tr>
+        </thead>
+        <tbody class="align-middle">
+            {{#each productos}}
+            <tr>
+                <td>{{ this.nombre }}</td>
+                <td>${{ this.precio }}</td>
+                <td><img src="{{this.foto}}" width="150"></td>
+                <td>{{ this.descripcion }}</td>
+                <td>{{this.stock}}</td>
+                <td>
+                    {{!-- <form action="/api/carrito/630ebc43549e044a62a32d86/productos" enctype="application/x-www-form-urlencoded" method="POST">
+                        <input type="" name="id_prod" value={{this._id}}>
+                        <button type="submit">Comprar</button>
+                    </form> --}}
+                    {{!-- <button class="btn btn-primary fw-bold" onclick="return addToCart('{{this._id}}', '{{this.cart}}')">+</button> --}}
+                    {{!-- <button class="btn btn-danger fw-bold" onclick="return removeFromCart('{{this._id}}', '{{this.cart}}')">Eliminar</button> --}}
+                    <div class="d-flex">
+                        <div class="btnComprar pe-2"><span class="spinner-border spinner-border-sm text-primary"></span></div>
+                        <div class="btnEliminar pe-2"><span class="spinner-border spinner-border-sm text-danger"></span></div>
+                    </div>
+                </td>
+            </tr>
+            
+            {{/each}}
+    </table>
+</section>
+{{else}}
+<div class="container">
+    <h3 class="border border-3 border-danger text-secondary text-center p-2">No hay productos</h3>
+</div>
+{{/if }}
+
