@@ -34,4 +34,4 @@ npm run test:mocha
 
 <br>
 
-![npm run test:mocha](TEST/images/npm_run_test_mocha.JPG)
+![npm run test:mocha](https://i.ibb.co/7SpYBb3/npm-run-test-mocha.jpg)
