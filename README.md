@@ -25,7 +25,7 @@ npm run test:mocha
 ``Test con AXIOS``
 
 
-![npm run test:axios](TEST/images/npm_run_test_axios.JPG)
+![npm run test:axios](https://i.ibb.co/MRzd9Lh/npm-run-test-axios.jpg)
 
 <br>
 
