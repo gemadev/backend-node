@@ -1,0 +1,54 @@
+type Product {
+    _id: ID
+    nombre: String
+    descripcion: String
+    codigo: String
+    foto: String
+    precio: Float
+    stock: Int
+    timestamp: String
+}
+
+type Query {
+    getAllProducts: [Product]
+    getProductById(id: String!): Product
+    getUserByEmail(email:String!):User
+    getUserCartById(id:String):[Cart]
+}
+
+input ProductInput {
+    nombre: String!
+    descripcion: String!
+    foto: String!
+    precio: Float!
+    stock: Int
+}
+
+type Mutation {
+    addProduct(input: ProductInput): Product
+    deleteProductById(id: String!): Product
+    updateProductById(id: String!, input: ProductInput): Product
+}
+
+type User {
+    _id:ID
+    nombre: String
+    email: String
+    age:Int
+    phone: String
+    adress: String
+    thumbnail: String
+    cart: [String]
+}
+
+type Cart {
+    _id:ID
+    nombre: String
+    descripcion: String
+    timestamp: String
+    codigo:ID
+    precio: Float
+    stock: Int
+    foto: String
+    cantidad:Int
+}
