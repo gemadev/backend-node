@@ -1,0 +1,14 @@
+<title>Compra Realizada</title>
+
+    <div class="alert alert-primary m-5 p-4">
+        <h2>¡Gracias por su compra! <span class="text-primary fw-semibold fs-3">{{user}}</span></h2>
+        <div class="d-flex">
+             <span class="spinner-border text-black fs-6 me-3"></span>
+            <p class="fs-4 text-black pe-5">Redireccionando a su carrito</p>
+        </div>
+    </div>
+<script>
+  setTimeout(() => {
+      window.location.assign("/user/carrito")
+  }, 2000);
+</script>

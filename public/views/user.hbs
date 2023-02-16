@@ -1,0 +1,48 @@
+<title>{{title}}</title>
+
+<section class="clearfix">
+    <div class="d-flex border border-1 flex-row justify-content-between align-items-center m-0 p-0">
+        <h2 class="text-primary fw-semibold fs-3">Bienvenido
+            <div class="d-flex">
+                {{#if parseado }}
+                <div class="text-success fs-5">{{ parseado.nombre }}</div>
+                <img src={{userAvatar}} class="rounded-pill" width="100px">
+            </div>
+        </h2>
+        <div>
+            <div class="d-flex justify-content-between align-items-center">
+                {{!-- <img src="../assets/img/users/carrito.png" width="40px"> --}}
+                <div>{{>cartWidget}}</div>
+                <div><a href="/user/carrito" class="btn btn-primary">Ver productos</a></div>
+
+
+                {{!-- <form action="/api/carrito/{{parseado.cart}}/productos" enctype="application/x-www-form-urlencoded"
+                    method="GET">
+                    <div>
+                        <button type="submit" class="btn btn-primary me-3">Ver productos</button>
+                    </div>
+                </form> --}}
+                
+            </div>
+
+        </div>
+        <div class="p-3">
+            <a class="btn btn-primary float-start m-2" href="/home">HOME</a>
+            <a class="btn btn-warning float-end m-2" href="/logout">Logout</a>
+        </div>
+    </div>
+
+    {{/if}}
+</section>
+
+{{#if parseado }}
+<div class="container border border-1 border-primary text-center mt-5">
+    <p>Nombre: <span class="text-primary">{{parseado.nombre}}</span></p>
+    <p>Email: <span class="text-primary">{{parseado.email}}</span></p>
+    <p>Telefono: <span class="text-primary">{{parseado.phone}}</span></p>
+    <p>Dirección: <span class="text-primary">{{parseado.adress}}</span></p>
+    <p>Edad: <span class="text-primary">{{parseado.age}}</span></p>
+    <p>Avatar: <br> <img src={{userAvatar}} class="rounded-pill" width="100"></d>
+</div>
+{{/if }}
+

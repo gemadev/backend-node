@@ -1,0 +1,29 @@
+{
+  "name": "desafio-46",
+  "version": "1.0.0",
+  "description": "Desafio clase 46",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Gonzalo Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.3",
+    "handlebars": "^4.7.7",
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0",
+    "koa-router": "^12.0.0",
+    "koa-views": "^8.0.0",
+    "mongoose": "^6.6.3",
+    "nodemailer": "^6.8.0",
+    "normalizr": "^3.6.2",
+    "winston": "^3.8.2",
+    "yargs": "^17.5.1"
+  }
+}
